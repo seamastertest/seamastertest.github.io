@@ -1,0 +1,245 @@
+:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+:focus::-moz-placeholder {
+	color: transparent;
+}
+:focus:-moz-placeholder {
+	color: transparent;
+}
+:focus:-ms-input-placeholder {
+	color: transparent;
+}
+select.form-control {
+  -moz-appearance: button;
+   -webkit-appearance: button;
+   appearance: button;
+}
+.navbar-brand {
+	height: 70px;
+}
+.navbar-brand img {
+	width: 230px;
+	height: 50px;
+}
+.main-slider {
+	margin-top: 84px;
+}
+.btn-primary {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	width: 200px;
+}
+.btn-outline-success,
+a.nav-link {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+.footer {
+	padding-top: 25px; 
+}
+@media (min-width: 992px) and (max-width: 1120px) {
+	a.nav-link {
+		font-size: 12px;
+	}
+}
+.full-screen {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.footer,
+.footer a{
+	color: #bb8c49;
+	font-family: 'Ubuntu', sans-serif;
+}
+.phones {
+	text-align: right;
+}
+.footer-bottom {
+	margin-top: 25px;
+
+}
+.footer a:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.75);
+}
+.about-us {
+	margin-top: 89px;
+	margin-bottom: 62px;
+	color: #bb8c49;
+}
+.section-heading-spacer {
+	background-color: #bb8c49;
+}
+.wrapper {
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+}
+.service {
+	margin-bottom: 14px;	
+}
+.mainpage { 
+	background: url('../images/main.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.main  {
+	margin: 100px 30px 308px 30px;
+}
+.slogan {
+	font-family: 'Monoton', cursive;
+	font-size: 60px;
+	color: #5d441f;
+	text-shadow: -3px -6px 10px rgba(180, 149, 105);
+}
+.fa-ship {
+	color: #bb8c49;
+	position: absolute;
+	top:25px;
+	left: 270px;
+}
+
+@media (max-width: 1265px) and (min-width: 992px) {
+	i.fa-ship {
+		display: none;
+	}
+	#infoblock {
+		font-size: 14.6px;	
+	}
+}
+@media (max-width: 415px) and (min-width: 320px) {
+	.fa-ship {
+		opacity: 0;
+	}
+	.main {
+		margin-bottom: 500px;
+	}
+}
+@media (max-width: 730px) and (min-width: 320px) {
+	.carousel-item {
+		max-height:505px; 
+	}
+}
+@media (max-width: 630px) {
+	.slogan {
+		font-size: 26px;
+	}
+}
+@media (max-width: 361px) {
+	.btn-primary {
+		margin-bottom: 20px;
+		width: 273px; 
+	}
+	.navbar-brand img {
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 424px) and (min-width: 374px) {
+	.btn-primary {
+		width: 328px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 665px) and (min-width: 425px) {
+	.btn-primary {
+		width: 378px;
+		margin-bottom: 20px;
+	}
+	.fa-ship {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 667px) {
+	.btn-primary {
+		width: 390px;
+		margin-bottom: 20px;
+		margin-left: 60px; 
+	}
+}
+.t-heading {
+	width: 140px;
+	border-right: 2px solid #bb8c49;
+	border-bottom: 1px solid #bb8c49;
+}
+.t-heading a {
+	text-decoration: none;
+	float: right;
+	color: #3f6071;
+	font-size: 16px;
+}
+.t-heading a:hover {
+	color: #bb8c49;
+}
+.table-sm {
+	margin-bottom: 27px;
+}
+.thead2 {
+	border-bottom: 1px solid #bb8c49;
+}
+
+@media (min-width: 1439px) and (max-width: 1601px) {
+	.main {
+		margin-bottom: 545px;
+	}
+	.about-us {
+		padding-top: 50px;
+		margin-bottom: 249px;
+	}
+	.carousel-item {
+		max-height: 757px;
+	}
+	.fa-ship {
+		left: 350px;
+	}
+}
+@media (min-width: 1602px) and (max-width: 1981px) {
+	.main {
+		margin-bottom: 354px;
+	}
+	.about-us {
+		padding-top: 80px;
+		margin-bottom: 253px;
+	}
+	.carousel-item {
+		max-height: 791px;
+	}
+	.slogan {
+		font-size: 90px;
+	}
+	#contacts {
+		display: none;
+	}
+	.footer a:hover {
+		text-decoration: none;
+		color: #bb8c49;
+		cursor: default;
+	}
+	.fa-ship {
+		left: 650px;
+	}
+}
+.language-selector {
+	background-color: #173544;
+	border-radius: 5px;
+	border-color: #bb8c49;
+	color: #bb8c49;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold; 
+	width: 85px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	right: 15px;
+	z-index: 100;
+} 
+.flag-icon {
+	margin-bottom: 3px;
+}
+#ru-lang {
+	display: none;
+}
